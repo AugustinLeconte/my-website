@@ -6,6 +6,7 @@ import { CertificationsComponent } from '../certifications/certifications.compon
 import { DomainesExpertiseComponent } from '../domaines-expertise/domaines-expertise.component';
 import { LanguesComponent } from '../langues/langues.component';
 import { ParcoursComponent } from '../parcours/parcours.component';
+import { SyntheseComponent } from '../synthese/synthese.component';
 
 @Component({
   selector: 'app-cv',
@@ -17,6 +18,7 @@ import { ParcoursComponent } from '../parcours/parcours.component';
     DomainesExpertiseComponent,
     LanguesComponent,
     ParcoursComponent,
+    SyntheseComponent,
   ],
   templateUrl: './cv.component.html',
   styleUrl: './cv.component.scss',

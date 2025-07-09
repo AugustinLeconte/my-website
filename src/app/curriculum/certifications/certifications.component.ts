@@ -1,11 +1,10 @@
 import { Component } from '@angular/core';
+import { TitreComponent } from '../titre/titre.component';
 
 @Component({
   selector: 'app-certifications',
-  imports: [],
+  imports: [TitreComponent],
   templateUrl: './certifications.component.html',
-  styleUrl: './certifications.component.scss'
+  styleUrl: './certifications.component.scss',
 })
-export class CertificationsComponent {
-
-}
+export class CertificationsComponent {}

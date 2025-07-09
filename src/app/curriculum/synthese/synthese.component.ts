@@ -2,9 +2,9 @@ import { Component } from '@angular/core';
 import { TitreComponent } from '../titre/titre.component';
 
 @Component({
-  selector: 'app-langues',
+  selector: 'app-synthese',
   imports: [TitreComponent],
-  templateUrl: './langues.component.html',
-  styleUrl: './langues.component.scss',
+  templateUrl: './synthese.component.html',
+  styleUrl: './synthese.component.scss',
 })
-export class LanguesComponent {}
+export class SyntheseComponent {}

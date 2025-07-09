@@ -6,4 +6,18 @@
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 30px;
+  font-family: "Lato", sans-serif;
+
+  .cols {
+    display: flex;
+
+    .left-col {
+      width: 60%;
+      margin-right: 5%;
+    }
+
+    .right-col {
+      width: 35%;
+    }
+  }
 }
