@@ -1,5 +1,5 @@
 import { Routes } from '@angular/router';
-import { CvComponent } from './cv/cv.component';
+import { CvComponent } from './curriculum/cv/cv.component';
 
 export const routes: Routes = [
   {
