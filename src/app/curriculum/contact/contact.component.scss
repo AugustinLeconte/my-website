@@ -3,9 +3,6 @@
   flex-wrap: nowrap;
   flex-direction: row;
   width: 100%;
-  padding-bottom: 25px;
-  border-bottom: 3px solid black;
-
   font-family: "Lato", sans-serif;
 
   .photo {
@@ -41,4 +38,40 @@
       }
     }
   }
+}
+
+.social-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+
+  .btn {
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+  }
+
+  .linkedin {
+    background-color: #0077b5;
+  }
+
+  .instagram {
+    background-color: #e1306c;
+  }
+
+  .btn:hover {
+    filter: brightness(1.1);
+  }
+}
+
+.border {
+  padding-bottom: 15px;
+  border-bottom: 3px solid black;
 }
