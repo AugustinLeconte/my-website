@@ -1,0 +1,17 @@
+.domaines {
+  font-size: 12px;
+  //columns: 2;
+  //column-gap: 4px;
+  display: flex;
+  column-gap: 10px;
+
+  .domaine {
+    display: block;
+    margin-bottom: 20px;
+
+    .titre {
+      font-size: 14px;
+      margin-bottom: 7px;
+    }
+  }
+}
