@@ -5,9 +5,14 @@
   .title-parcours {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5px;
 
     b {
       font-size: 14px;
     }
+  }
+
+  .lieu {
+    margin-bottom: 5px;
   }
 }
