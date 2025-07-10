@@ -1,0 +1,13 @@
+.parcours {
+  font-size: 12px;
+  margin-bottom: 20px;
+
+  .title-parcours {
+    display: flex;
+    justify-content: space-between;
+
+    b {
+      font-size: 14px;
+    }
+  }
+}
