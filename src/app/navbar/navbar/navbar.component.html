@@ -1,0 +1,17 @@
+<nav class="navbar" [class.collapsed]="collapsed">
+  <button (click)="toggleNavbar()" class="toggle-btn">☰</button>
+  <ul class="navbar-links">
+    <li>
+      <a routerLink="/">
+        <fa-icon [icon]="faHome"></fa-icon>
+        <span class="text" *ngIf="!collapsed">Home</span>
+      </a>
+    </li>
+    <li>
+      <a routerLink="/cv">
+        <fa-icon [icon]="faUser"></fa-icon>
+        <span class="text" *ngIf="!collapsed">A propos de moi</span>
+      </a>
+    </li>
+  </ul>
+</nav>

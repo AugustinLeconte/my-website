@@ -1,0 +1,24 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.layout .navbar {
+  width: 15vw;
+  transition: width 0.3s ease;
+}
+
+.layout.collapsed .navbar {
+  width: 60px;
+}
+
+main {
+  flex-grow: 1;
+  padding: 1rem;
+  transition: margin 0.3s;
+}

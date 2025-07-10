@@ -1,1 +1,9 @@
-<router-outlet />
+<div class="layout" [class.collapsed]="collapsed">
+  <app-navbar
+    [collapsed]="collapsed"
+    (toggle)="collapsed = !collapsed"
+  ></app-navbar>
+  <main>
+    <router-outlet></router-outlet>
+  </main>
+</div>
