@@ -1,9 +1,7 @@
 .domaines {
   font-size: 12px;
-  //columns: 2;
-  //column-gap: 4px;
-  display: flex;
-  column-gap: 10px;
+  columns: 2;
+  column-gap: 20px;
 
   .domaine {
     display: block;

@@ -1,4 +1,5 @@
-<div class="content">
+<div class="content" id="cv-content">
+  <button class="download" (click)="downloadPDF()">Télécharger en PDF</button>
   <app-contact></app-contact>
   <div class="cols">
     <div class="left-col">
@@ -15,3 +16,5 @@
     </div>
   </div>
 </div>
+
+<div id="pdf-capture" style="position: absolute; left: -9999px; top: 0"></div>

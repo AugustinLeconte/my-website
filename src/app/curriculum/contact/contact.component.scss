@@ -27,13 +27,17 @@
       columns: 2;
       column-gap: 60px;
       font-family: serif;
-      font-size: 14px;
       line-height: 1.6;
       max-width: 600px;
       font-size: 12px;
 
       span {
         width: 20px;
+      }
+
+      .info {
+        display: block;
+        width: 100px;
       }
     }
   }
@@ -73,4 +77,8 @@
 .border {
   padding-bottom: 15px;
   border-bottom: 3px solid black;
+}
+
+:host-context(.pdf-mode) .social-buttons {
+  display: none !important;
 }

@@ -9,6 +9,8 @@
   padding-bottom: 40px;
   margin-bottom: 20px;
   font-family: "Lato", sans-serif;
+  background-color: white;
+  position: relative;
 
   .cols {
     display: flex;
@@ -21,5 +23,35 @@
     .right-col {
       width: 35%;
     }
+  }
+}
+
+#cv-content.pdf-mode {
+  width: 700px;
+  border: none;
+  margin: 0;
+}
+
+.download {
+  position: absolute;
+  top: 2.5rem;
+  left: 100%;
+  transform: translateX(-50%);
+  background: #007bff;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.download :hover {
+  background: #0056b3;
+}
+
+.pdf-mode {
+  button {
+    display: none !important;
   }
 }
