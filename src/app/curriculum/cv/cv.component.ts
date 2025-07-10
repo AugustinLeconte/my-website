@@ -5,8 +5,9 @@ import { CentresInteretComponent } from '../centres-interet/centres-interet.comp
 import { CertificationsComponent } from '../certifications/certifications.component';
 import { DomainesExpertiseComponent } from '../domaines-expertise/domaines-expertise.component';
 import { LanguesComponent } from '../langues/langues.component';
-import { ParcoursComponent } from '../parcours/parcours.component';
 import { SyntheseComponent } from '../synthese/synthese.component';
+import { ProComponent } from '../pro/pro.component';
+import { FormationsComponent } from '../formations/formations.component';
 
 @Component({
   selector: 'app-cv',
@@ -17,7 +18,8 @@ import { SyntheseComponent } from '../synthese/synthese.component';
     CertificationsComponent,
     DomainesExpertiseComponent,
     LanguesComponent,
-    ParcoursComponent,
+    ProComponent,
+    FormationsComponent,
     SyntheseComponent,
   ],
   templateUrl: './cv.component.html',
