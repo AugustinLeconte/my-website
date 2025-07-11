@@ -1,0 +1,17 @@
+a {
+  cursor: pointer;
+  width: 100px;
+  display: block;
+  border: 1px solid black;
+  height: 100px;
+  border-radius: 15px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+
+  div {
+    border-bottom: solid 1px black;
+    padding-bottom: 5px;
+  }
+}

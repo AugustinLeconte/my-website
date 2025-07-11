@@ -1,0 +1,16 @@
+<form [formGroup]="form">
+  <input formControlName="url" placeholder="Url de la vidéo" />
+  <label *ngFor="let option of options">
+    <input type="radio" formControlName="options" [value]="option.value" />
+    {{ option.label }}
+  </label>
+
+  <div
+    class="required-message-div"
+    *ngIf="form.get('url')?.invalid && form.get('url')?.touched"
+  >
+    Required
+  </div>
+
+  <button (click)="onSubmit()" [disabled]="!form.valid">Télécharger</button>
+</form>
